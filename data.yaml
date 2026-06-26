@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['raccon']
+
+roboflow:
+  workspace: tionidas-workspace
+  project: raccon-3osqx-dnwwp
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/tionidas-workspace/raccon-3osqx-dnwwp/dataset/1
